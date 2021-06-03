@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T10:56:43.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.7.2" etag="oxF2F_1aLVq4f_801JfX" type="github"><diagram id="ISF1Ck1-K9I3IJUlVEIQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-03T11:45:51.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LzfB7TyDrUvA28MhfSGq" version="14.7.2" type="github">
+  <diagram id="ISF1Ck1-K9I3IJUlVEIQ" name="Page-1">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-1" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-2" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-3" value="Service&lt;br&gt;Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-4" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-10" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FHdqbLhgD7UDXn0ptauh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="249.5" as="sourcePoint" />
+            <mxPoint x="230" y="249.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-12" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="249.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-13" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="249.5" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-14" value="Repository Class Extending &lt;br&gt;CRUD Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-15" value="Database" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-17" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.665;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FHdqbLhgD7UDXn0ptauh-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="sourcePoint" />
+            <mxPoint x="470" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-18" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FHdqbLhgD7UDXn0ptauh-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="400" as="sourcePoint" />
+            <mxPoint x="405" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-19" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FHdqbLhgD7UDXn0ptauh-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="420" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-20" value="Dependency&lt;br&gt;Injection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-21" value="HTTP&lt;br&gt;Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FHdqbLhgD7UDXn0ptauh-22" value="JPA/Spring&lt;br&gt;Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
